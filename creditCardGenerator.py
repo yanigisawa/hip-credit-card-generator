@@ -85,7 +85,7 @@ def get_requested_command(message):
 def get_help_message():
     msg = "Generates a random credit card number. Usage:"
     msg += "<ul><li>/ccgen - Picks a random type and returns a random number</li>"
-    msg += "<ul><li>/ccgen <type> - Returns a random number for the type specified</li></ul>"
+    msg += "<li>/ccgen <type> - Returns a random number for the type specified</li></ul>"
     msg += "Possible Types include: "
     msg += "<ul>"
     for tp in CreditCardGenerator._credit_card_types:
